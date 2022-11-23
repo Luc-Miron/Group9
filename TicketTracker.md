@@ -20,6 +20,7 @@ Get red light tickets counts for a cross road
 | ----------- | ----------- |
 | street1      | The name of a street       |
 | street2   | The name of a crossing street        |  
+
 **GET**  
 ```
 https://www.ticket-track.com/tickets/redlight?street1=test1&street2=test2
@@ -45,6 +46,7 @@ Get speed tickets counts for a cross road
 | ----------- | ----------- |
 | street1      | The name of a street       |
 | street2   | The name of a crossing street        |  
+
 **GET**  
 ```
 https://www.ticket-track.com/tickets/speed?street1=test1&street2=test2  
