@@ -19,13 +19,16 @@ We have two endpoints each has two parameters
 ## Description of Resources
 
 ## Sample request with sample response
+
 #### Get red light tickets count  
-Get red light tickets counts for a cross road  
+
+Returns red light tickets counts for a cross road as a JSON object
+
 ##### Path parameters  
 | Parameter   | Description |
 | ----------- | ----------- |
-| street1      | The name of a street       |
-| street2   | The name of a crossing street        |  
+| street1     | The name of a street       |
+| street2     | The name of a crossing street        |  
 
 **GET**  
 ```
@@ -46,12 +49,12 @@ Response
 ```  
 
 #### Get speed tickets  
-Get speed tickets counts for a cross road  
+Returns speed tickets counts for a cross road as a JSON object 
 ##### Path parameters  
 | Parameter   | Description |
 | ----------- | ----------- |
-| street1      | The name of a street       |
-| street2   | The name of a crossing street        |  
+| street1     | The name of a street       |
+| street2     | The name of a crossing street        |  
 
 **GET**  
 ```
