@@ -20,7 +20,8 @@ We have two endpoints. Which each having two parameters.
 
 Both endpoints return a JSON with the following information:  
 1. **type**: `red light` or `speed` depending on the endpoint.
-2. **date**: The date of the query. Note the API returns the total number of tickets for the last 7 days.
+2. **date**: The date of the query.
+    > Note the API returns the total number of tickets for the last 7 days.
 3. **street1**: The name of the first cross-street entered.
 4. **street2**: The name of the second cross-street entered.
 5. **ticketCount**: The number of tickets issued in the last 7 days.
