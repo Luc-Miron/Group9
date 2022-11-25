@@ -26,7 +26,7 @@ Both endpoints return a JSON with the following information:
 4. **street2**: The name of the second cross-street entered.
 5. **ticketCount**: The number of tickets issued in the last 7 days.
 
-## Sample request with sample response
+## Sample Request with Sample Response
 
 #### Get red light ticket count  
 
