@@ -40,7 +40,7 @@ Returns a red light ticket count from the last 7 days for an intersection in Win
 
 **GET**  
 ```
-https://www.ticket-track.com/tickets/redlight?street1=test1&street2=test2
+https://api.tickettracker.com/tickets/redlight?street1=test1&street2=test2
 ```
 Response  
 `200`  
@@ -70,7 +70,7 @@ Returns a speeding ticket count from the last 7 days for an intersection in Winn
 **GET** 
 
 ```
-https://www.ticket-track.com/tickets/speed?street1=test1&street2=test2  
+https://api.tickettracker.com/tickets/speed?street1=test1&street2=test2  
 ```
 Response  
 `200`  
