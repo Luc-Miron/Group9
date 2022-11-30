@@ -13,8 +13,8 @@ We have two endpoints. Which each have two parameters.
     - `/redlight`(Red Light Camera): Return the numbers of tickets issued by the photo radar camera at specific location.
     - `/speed`(Speed Camera): Return the numbers of tickets issued by the photo radar camera at specific location.
   - **Parameters**
-    - `street1`(street name 1): The first street name all in lower case. **Required**.
-    - `street2`(street name 2): The second street name all in lower case. **Required**.
+    - `street1`(Street Name 1): The first street name all in lower case. **Required**.
+    - `street2`(Street Name 2): The second street name all in lower case. **Required**.
 
 ## Description of Resources
 
